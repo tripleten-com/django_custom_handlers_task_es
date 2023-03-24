@@ -108,7 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'ru'
+LANGUAGE_CODE = 'en'
 
 TIME_ZONE = 'UTC'
 
@@ -124,7 +124,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# Без этой настройки статика не подключится
+# Without this setting, the static data won't be displayed
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 CSRF_FAILURE_VIEW = 'core.views.csrf_failure'
