@@ -2,8 +2,8 @@ from django.shortcuts import render
 
 
 def page_not_found(request, exception):
-    # The exception variable contains debug information
-    # that we won't pass to the template of the 404 page
+    # La variable exception contiene información de depuración
+    # que no se pasará a la plantilla de la página 404
     return render(request, 'core/404.html', {'path': request.path}, status=404)
 
 
