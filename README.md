@@ -1,2 +1,2 @@
 # django_custom_handlers_task
-Custom Django Project pages
+Páginas personalizadas del proyecto de Django
